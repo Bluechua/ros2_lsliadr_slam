@@ -8,9 +8,11 @@
 
 ## 全套终端执行命令
 ```bash
-### 安装雷达运行依赖库
+# 安装雷达运行依赖库
 sudo apt-get install libpcap-dev
-### 切换至ROS2工作空间src目录
+
+# 切换至ROS2工作空间src目录
 cd ~/ros2_ws/src
-### 编译完成后，启动雷达节点
+
+# 编译完成后，启动雷达节点
 ros2 launch lslidar_driver lslidar_m10p_launch.py
